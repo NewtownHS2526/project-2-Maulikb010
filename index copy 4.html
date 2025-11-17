@@ -6,28 +6,40 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Project Hub</title>
   </head>
-  <body class="min-h-screen bg-blue-950 text-slate-100">
+  <body class="min-h-screen bg-red-950 text-slate-100">
     <header>
       <nav class="bg-gray-500 p-4 flex justify-around md:flex-row flex-col gap-2 md:gap-0">
-        <a href="index.html">Home</a>
-        <a href="index copy.html">Page 2</a>
-        <a href="index copy 2.html">Page 3</a>
-        <a href="index copy 3.html">Page 4</a>
-        <a href="index copy 4.html">Page 5</a>
-        <a href="index copy 5.html">Page 6</a>
+        <a class="text-blue-400 hover:text-blue-900" href="index.html">Home</a>
+        <a class="text-blue-400 hover:text-blue-900" href="index copy.html">Page 2</a>
+        <a class="text-blue-400 hover:text-blue-900" href="index copy 2.html">Page 3</a>
+        <a class="text-blue-400 hover:text-blue-900" href="index copy 3.html">Page 4</a>
+        <a class="text-blue-400 hover:text-blue-900" href="index copy 4.html">Page 5</a>
+        <a class="text-blue-400 hover:text-blue-900" href="index copy 5.html">Page 6</a>
       </nav>
     </header>
     <main>
-      <section class="rounded-3xl border border-slate-800 bg-slate-900/60 p-10">
-        <h1 class="text-3xl font-bold">Facts about Lions</h1>
-        <p  class="mt-2 text-slate-600">Welcome, here you can discover facts about Lions</p>
+      <section class="rounded-3xl border border-red-100 bg-red-900/60 p-10">
+        <h1 class="text-3xl font-bold">Conservation Status and Threats</h1>
+        <p  class="mt-2 text-white-600">The problems</p>
+        <img class="border-4 border-red-100 w-500 h-500 rounded-3xl" src="https://i.pinimg.com/736x/9c/09/8a/9c098a08f72a45e29d74b869b9c8185c.jpg"alt="Lions">
       </section>
-       <section class="product-card max-w-md mx-auto rounded-2xl border border-slate-200 bg-white p-8 transition-shadow hover:shadow-lg relative ">
-        <img
-          src="https://t4.ftcdn.net/jpg/08/77/86/85/360_F_877868541_BVOeis3zfexVFiPU9cpxfMyrpkSapa3J.jpg"
-          alt="Lions"
-          class="w-full rounded-xl object-cover h-56 object-cover rounded-xl"
-        />
+      <section class="rounded-3xl border border-red-200 bg-red-900/60 p-10 space-y-10 mt-6">
+        <h3 class="text-2xl font-semibold">Issues</h3>
+        <ul class="mt-6 grid gap-6 sm:grid-cols-2">
+          <li class="rounded-2xl border border-red-100 bg-red-900/60 p-5">
+            Lions are considered vulnerable, which means they are at risk of becoming endangered. Their numbers are going down because of several problems.
+          </li>
+          <li class="rounded-2xl border border-red-100 bg-red-900/60 p-5">
+            Their homes are getting smaller because people are building farms and cities. Lions sometimes get into conflicts with humans, and some are killed to protect livestock..
+          </li>
+          <li class="rounded-2xl border border-red-100 bg-red-900/60 p-5">
+            Lions are hunted for their bones, skin, claws, and other body parts, which are used in traditional medicine, souvenirs, and jewelry. This illegal hunting, known as poaching, greatly harms lion populations and threatens their survival in the wild.
+          </li>
+          <li class="rounded-2xl border border-red-100 bg-red-900/60 p-5">
+            Many groups are working to protect lions by creating wildlife parks and making laws against hunting. We need to keep working to help lions stay safe and live in the wild.
+          </li>
+        </ul>
+      </section>
     </main>
     <footer>
       <small>&copy; 2025 Project Hub</small>
